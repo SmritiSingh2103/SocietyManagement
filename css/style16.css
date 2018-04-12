@@ -1,0 +1,1607 @@
+body{
+	margin:0;
+	padding:0;
+	/*font-family:Georgia, Helvetica,Serif*/
+	font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+	font-size:15px;
+	color:black;
+	/*background-color:#9A12B3;*/
+	background-image:url("../images/im2.jpg");
+	background-size:cover;
+	
+}
+
+h2{
+	text-align:center;
+}
+
+#upload{
+top: 50%
+align: center;	
+}
+
+#upload1{
+top: 50%
+align:center;	
+	
+}
+
+/*#menuContainer{
+	list-style:none;
+	
+}
+#menuContainer li a{
+	float:left;
+	padding:0px 40px;
+	text-align:center;
+	line-height:42px;
+	text-decoration:none;
+	height:42px;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+#menuContainer li a:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+	border-radius:8px;
+}
+
+.myButtons{
+	background-color:#9A12B3;
+	color:white;
+}
+.myActiveButton{
+	background-color:white;
+	color:#9A12B3;
+	border-radius:8px;
+}*/
+
+#bodyContainer{
+	width:920px;
+	height:475px;
+	/*background-color:#9A12B3;*/
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.3);
+	margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;
+}
+
+#bodyContainer1{
+	width:700px;
+	height:475px;
+	/*background-color:#9A12B3;*/
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.3);
+	margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;
+}
+
+#bodyContainer2{
+	width:700px;
+	height:150px;
+	/*background-color:#9A12B3;*/
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.3);
+	margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;
+}
+#bodyContainer3{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+	/*background-color:#9A12B3;*/
+	/*border:2px solid #22313f;*/
+	/*background:rgba(0,0,0,.3);*/
+	/*margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;*/
+}
+#notice{
+	width:30%;
+	float :right;
+	position:relative;
+}
+#bodyContainer4{
+	width:700px;
+	height:200px;
+	/*background-color:#9A12B3;*/
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.3);
+	margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;
+}
+
+#bodyContainer5{
+	width:800px;
+	height:400px;
+	/*background-color:#9A12B3;*/
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.3);
+	margin:auto;
+	margin-top:22px;
+	border-top:#666 1px solid;
+}
+
+#submit_btn1{
+	top:500px;
+	left:400px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#submit_btn1:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#clear_btn1{
+	top:500px;
+	left:800px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+	
+}   
+
+#clear_btn1:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#submit_btn2{
+	top:420px;
+	left:800px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#submit_btn2:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#clear_btn2{
+	top:500px;
+	left:800px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+} 
+
+#clear_btn2:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}  
+
+#submit_btn3{
+	top:500px;
+	left:800px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#submit_btn3:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#clear_btn3{
+	top:500px;
+	left:400px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}  
+
+#clear_btn3:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+} 
+
+#search_btn1{
+	top:150px;
+	left:800px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#search_btn1:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#search_btn21{
+	top:200px;
+	left:180px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border:0px;
+}
+
+#search_btn21:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#search_btn22{
+	top:200px;
+	left:600px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+	border:0px;
+}
+
+#search_btn22:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#search_btn23{
+	top:200px;
+	left:1040px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+	border:0px;
+}
+
+#search_btn23:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+
+#clear_btn5{
+	top:600px;
+	left:600px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#clear_btn5:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#search_btn3{
+	top:160px;
+	left:900px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#search_btn3:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#update_btn1{
+	top:350px;
+	left:450px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#update_btn1:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#delete_btn1{
+	top:350px;
+	left:750px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#delete_btn1:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+
+  
+#name1{
+	top:210px;
+	left:260px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#name2{
+	top:207px;
+	left:380px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+#mob1{
+	top:259px;
+	left:260px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#mob2{
+	top:256px;
+	left:380px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#add1{
+	top:313px;
+	left:260px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+
+#rent{
+top: 200px;
+text-align: center;
+}
+
+#myTextArea{
+	top:310px;
+	left:380px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+	padding:0px 5px;
+}
+#em1{
+	top:379px;
+	left:260px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#em2{
+	top:378px;
+	left:380px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+/*#dob1{
+	top:373px;
+	left:150px;
+	width: 10%;
+	position : absolute;
+	font-size:20px;
+}
+#dob2{
+	top:367px;
+	left:300px;'
+	border-radius:5px;
+	width: 10%;
+	position : absolute;
+	padding:3px 5px;
+}*/
+#dob1{
+	top:210px;
+	left:688px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#dob2{
+	top:207px;
+	left:870px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:3px 5px;
+}
+#age1{
+	top:259px;
+	left:688px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#age2{
+	top:256px;
+	left:870px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#doj1{
+	top:313px;
+	left:688px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#doj2{
+	top:310px;
+	left:870px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:3px 5px;
+}
+#gen{
+	top:362px;
+	left:688px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#gen1{
+	top:358px;
+	left:870px;
+	position : absolute;
+	font-size:20px;
+}
+
+
+#gen2{
+	top:378px;
+	left:870px;
+	position : absolute;
+	font-size:20px;
+}
+
+#gen3{
+	top:398px;
+	left:870px;
+	position : absolute;
+	font-size:20px;
+}
+
+#gen11{
+	top:338px;
+	left:893px;
+	position : absolute;
+	font-size:20px;
+}
+
+
+#gen22{
+	top:358px;
+	left:893px;
+	position : absolute;
+	font-size:20px;
+}
+
+#gen33{
+	top:378px;
+	left:893px;
+	position : absolute;
+	font-size:20px;
+}
+
+
+#snam1{
+	top:190px;
+	left:270px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#snam2{
+	top:187px;
+	left:420px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+#sadd1{
+	top:234px;
+	left:270px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#myTextArea1{
+	top:231px;
+	left:420px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+	padding:0px 5px;
+}
+
+#smob1{
+	top:296px;
+	left:270px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#smob2{
+	top:293px;
+	left:420px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+#sem1{
+	top:339px;
+	left:270px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#sem2{
+	top:336px;
+	left:420px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#sgen{
+	top:380px;
+	left:270px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+
+#sgen1{
+	top:380px;
+	left:315px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+}
+#sgen2{
+	top:405px;
+	left:315px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+}
+#sgen3{
+	top:432px;
+	left:315px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+}
+
+#sgen11{
+	top:358px;
+	left:435px;
+	width: 10%;
+	position : absolute;
+	font-size:20px;
+}
+#sgen22{
+	top:383px;
+	left:435px;
+	width: 10%;
+	position : absolute;
+	font-size:20px;
+}
+#sgen33{
+	top:410px;
+	left:435px;
+	width: 10%;
+	position : absolute;
+	font-size:20px;
+}
+
+#sdob1{
+	top:190px;
+	left:695px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#sdob2{
+	top:187px;
+	left:872px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:3px 5px;
+}
+#sage1{
+	top:234px;
+	left:695px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#sage2{
+	top:231px;
+	left:872px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#sdoj1{
+	top:278px;
+	left:695px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#sdoj2{
+	top:275px;
+	left:872px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:3px 5px;
+}
+#sal1{
+	top:322px;
+	left:695px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+
+#sal2{
+	top:319px;
+	left:872px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+
+#pnam1{
+	top:150px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pnam2{
+	top:147px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#pbran1{
+	top:200px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pbran2{
+	top:197px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#pcat1{
+	top:250px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pcat2{
+	top:247px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#pamt1{
+	top:300px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pamt2{
+	top:297px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+#pdis1{
+	top:350px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pdis2{
+	top:347px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+#pquan1{
+	top:400px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pquan2{
+	top:397px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
+#pdate1{
+	top:450px;
+	left:460px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+#pdate2{
+	top:447px;
+	left:670px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:3px 5px;
+}
+
+
+#sd1{
+	top:160px;
+	left:400px;
+	width: 10%;
+	position : absolute;
+	font-size:20px;
+}
+#sd2{
+	top:157px;
+	left:550px;'
+	border-radius:5px;
+	width: 10%;
+	position : absolute;
+	padding:5px;
+}
+
+#pro1{
+	top:150px;
+	left:50px;
+	width: 30%;
+	position : absolute;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#pro2{
+	top:147px;
+	left:160px;'
+	border-radius:5px;
+	width: 14%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#pronam1{
+	top:150px;
+	left:440px;
+	width: 30%;
+	position : absolute;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#pronam2{
+	top:147px;
+	left:590px;'
+	border-radius:5px;
+	width: 14%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#procat1{
+	top:150px;
+	left:870px;
+	width: 30%;
+	position : absolute;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#procat2{
+	top:147px;
+	left:1060px;'
+	border-radius:5px;
+	width: 14%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#pro3{
+	top:170px;
+	left:350px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+	margin-bottom:10px;
+}
+#pro4{
+	top:167px;
+	left:600px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#quan1{
+	top:220px;
+	left:350px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+	margin-bottom:10px;
+}
+#quan2{
+	top:217px;
+	left:600px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#date1{
+	top:270px;
+	left:350px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+	margin-bottom:10px;
+}
+#date2{
+	top:267px;
+	left:600px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#pre1{
+	top:420px;
+	left:300px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+	margin-bottom:10px;
+}
+#pre2{
+	top:417px;
+	left:505px;'
+	border-radius:5px;
+	width: 10%;
+	position : absolute;
+	padding:3px 5px;
+	margin-bottom:10px;
+}
+
+
+#new1{
+	top:420px;
+	left:700px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+	margin-bottom:10px;
+}
+#new2{
+	top:417px;
+	left:870px;'
+	border-radius:5px;
+	width: 10%;
+	position : absolute;
+	padding:3px 5px;
+	margin-bottom:10px;
+}
+
+
+.x{
+	display : block;
+	width : 100%;
+}
+.x thead, tbody{
+	display : block;
+}
+
+.x tbody{
+	height :300px;
+	overflow-y : scroll;
+	/*overflow-x : hidden;*/
+}
+
+
+#abc{
+	position: absolute;
+	top : 15%;
+	left : 15%;
+}
+#abc th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #9A12B3;
+	color: white;
+}
+#abc td, #abc th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#abc tr{
+	background-color: #ddd;
+}
+#abc tr:hover{
+	background-color: #BE90D4;
+}
+
+.x1{
+	display : block;
+	width : 90%;
+}
+.x1 thead, tbody{
+	display : block;
+}
+
+.x1 tbody{
+	height :300px;
+	overflow-y : scroll;
+	overflow-x : scroll;
+}
+
+
+#abc1{
+	position: absolute;
+	top : 250px;
+	left :90px;
+}
+#abc1 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #9A12B3;
+	color: white;
+}
+#abc1 td, #abc1 th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#abc1 tr{
+	background-color: #ddd;
+}
+#abc1 tr:hover{
+	background-color: #BE90D4;
+}
+
+.x2{
+	display : block;
+	width : 100%;
+}
+.x2 thead, tbody{
+	display : block;
+}
+
+.x2 tbody{
+	height :300px;
+	overflow-y : scroll;
+	overflow-x : hidden;
+}
+
+
+#abc2{
+	position: absolute;
+	top : 200px;
+	left :650px;
+}
+#abc2 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #9A12B3;
+	color: white;
+}
+#abc2 td, #abc2 th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#abc2 tr{
+	background-color: #ddd;
+}
+#abc2 tr:hover{
+	background-color: #BE90D4;
+}
+
+#sure{
+	margin-top:50px;
+	text-align:center;
+	font-size:26px;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+}
+
+#yes_btn{
+	top:200px;
+	left:425px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#yes_btn:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#no_btn{
+    top:200px;
+	left:790px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#no_btn:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+
+#set{
+	border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+   /* border: 1px solid #FFD2D2;*/
+    padding: 10px;
+    /*background: #FFF4F4;
+    box-shadow: inset 0px 0px 15px #9A12B3;
+    -moz-box-shadow: inset 0px 0px 15px #9A12B3;
+    -webkit-box-shadow: inset 0px 0px 15px #9A12B3;*/
+	border:2px solid #9A12B3;
+	/*background:rgba(0,0,0,.2);*/
+	background: #9A12B3;
+}
+
+fieldset{
+	top:180px;
+	left:50px;
+	width:500px;
+	position:absolute;
+	height:450px;
+	border:2px solid #22313f;
+	background:rgba(0,0,0,.2);
+}
+#bill1{
+	top:130px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:18px;
+	margin-bottom:10px;
+}
+#bill2{
+	top:127px;
+	left:140px;
+	border-radius:5px;
+	width: 14%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#bdate1{
+	top:130px;
+	left:395px;
+	width: 30%;
+	position : absolute;
+	font-size:18px;
+}
+#bdate2{
+	top:125px;
+	left:470px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:4px;
+}
+
+#bpro1{
+	top:50px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bpro2{
+	top:47px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#bnam1{
+	top:94px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bnam2{
+	top:95px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#bbran1{
+	top:147px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bbran2{
+	top:144px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#bcat1{
+	top:196px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bcat2{
+	top:193px;
+	left:150px;'
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#bamt1{
+	top:246px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bamt2{
+	top:243px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+#bdis1{
+	top:296px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bdis2{
+	top:293px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#bquan1{
+	top:346px;
+	left:50px;
+	width: 25%;
+	position : absolute;
+	font-size:15px;
+	margin-bottom:10px;
+}
+#bquan2{
+	top:343px;
+	left:150px;
+	border-radius:5px;
+	width: 35%;
+	position : absolute;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#add_btn{
+	top:400px;
+	left:50px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#add_btn:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#reset_btn{
+	top:400px;
+	left:230px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#reset_btn:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#total_btn{
+	top:150px;
+	left:500px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:150px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#total_btn:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+#search{
+	top:50px;
+	left:365px;
+	background-color:#9A12B3;
+	padding:8px;
+	color:white;
+	width:130px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	border-radius:20px;
+	display: inline-block;
+	position:absolute;
+	border:0px;
+}
+
+#search:hover{
+	background-color:#BE90D4;
+	color:#9A12B3;
+}
+
+#upsearch{
+width: 25%;
+float:right;	
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #9A12B3;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy;
+  background:rgba(0,0,0,.5);
+  width: 75%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	
+	/*padding:0px 40px;
+	
+	line-height:42px;
+
+	height:42px;*/
+	
+		
+	
+	
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+ padding: 14px 30px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #9A12B3;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-weight: bold;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color:#BE90D4;
+	color:#9A12B3;
+	border-radius:8px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9A12B3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #BE90D4;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.myButtons{
+	background-color:#9A12B3;
+	/*color:black;*/
+}
+.myActiveButton{
+	background-color:black;
+	color:#9A12B3;
+	border-radius:8px;
+}
