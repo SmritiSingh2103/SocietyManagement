@@ -33,15 +33,15 @@
 			$password= $_POST['password'];
 			$query1 = "select * from admin WHERE username = '$username' AND password = '$password' ";
 			$query2 = "select * from members WHERE username = '$username' AND password = '$password' ";
-			//$query3 = "select * from staff WHERE username = '$username' AND password = '$password' ";
+			$query3 = "select * from staff WHERE username = '$username' AND password = '$password' ";
 			$query_run1 = mysqli_query($con,$query1);
 			$query_run2 = mysqli_query($con,$query2);
-			//$query_run3 = mysqli_query($con,$query3);
+			$query_run3 = mysqli_query($con,$query3);
 			if(mysqli_num_rows($query_run1)>0)
 			{
 				//valid
 				$_SESSION['username'] = $username;
-				header('location:bill.php');
+				header('location:admin1.php');
 				
 			}
 			else if(mysqli_num_rows($query_run2)>0){
@@ -52,13 +52,20 @@
 					header('location:notice.php');
 				}
 				else{
-					header('location:index.php');
+					header('location:profile.php');
 				}
 			}
-			/*else if(mysqli_num_rows($query_run3)>0){
+			else if(mysqli_num_rows($query_run3)>0){
 				$_SESSION['username'] = $username;
-				header('location:index.php');
-			}*/
+				$query5 = "select * from staff1 WHERE username = '$username'";
+				$query_run5 = mysqli_query($con,$query5);
+				if(mysqli_num_rows($query_run5)>0){
+					header('location:staff1.php');
+				}
+				else{
+					header('location:staff.php');
+				}
+			}
 			else
 			{ 
 				//invalid

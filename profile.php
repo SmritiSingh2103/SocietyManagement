@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav>
-<ul id="navbar">
+<ul id="menuContainer">
 <?php include_once("menu_template.php");?>
 </ul>
 </nav>

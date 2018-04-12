@@ -37,7 +37,7 @@
 			if(mysqli_num_rows($query_run) > 0)
 			{
 								
-								echo "<table id = 'abc' class = 'x' align='center' border-collapse: collapse' >
+								echo "<table id = 'abc' class = 'x' align='center' border-collapse: collapse' >;
 								<tr>	
 								<th>Date</th>
 								<th>End Date</th>
@@ -46,15 +46,13 @@
 
 								while($row = mysqli_fetch_array($query_run))
 								{
-									//$text = $row['notice_text'];
-									//$text1 = $text."";
+									$text = $row['notice_text'];
 								echo "<tr>";
 								echo "<td>" . $row['date'] . "</td>";
 								echo "<td>" . $row['end_date'] . "</td>";
-								echo "<td>" . $row['notice_text'] . "</td>";
-								//echo "<td>";
-								//echo "<button id = \"notice\" onclick = \"show($text1)\">View Notice</button>";
-								//echo "</td>";
+								echo "<td>";
+								echo "<button id = \"notice\" onclick = \"show($text)\">View Notice</button>";
+								echo "</td>";
 								echo "</tr>";
 								}
 								echo "</table>";
@@ -74,21 +72,16 @@
 
 </div>
 <script>
-var alltext = "";
 function show(text){
-	//var text= "xhjcb";
-	alltext += text;
 	var x = document.createElement("TEXTAREA");
-	x.setAttribute("name", "post");
-	x.setAttribute("maxlength", 5000);
-	x.setAttribute("cols",25);
-	x.setAttribute("rows", 15);
-    x.readOnly = true;
-   var t = document.createTextNode(alltext);
-   x.appendChild(t);
-	
-  //  y.innerHTMl.value = x;
-   document.getElementById("notice").appendChild(x);
+	x.setAttribute('name', 'post');
+	x.setAttribute('maxlength', 5000);
+	x.setAttribute('cols',80);
+	x.setAttribute('rows', 40);
+    var t = document.createTextNode(text);
+    x.appendChild(t);
+	x.readOnly = true;
+    document.getElementById("notice").innerHTML=x;
 	
 }
 </script>
