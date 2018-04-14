@@ -322,7 +322,7 @@ align:center;
 }
 
 #search_btn55{
-	top:300px;
+	top:600px;
 	left:600px;
 	background-color:#9A12B3;
 	padding:8px;
@@ -463,6 +463,15 @@ align:center;
 	position : absolute;
 	font-size:20px;
 }
+
+#name21{
+	top:180px;
+	left:150px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+
 #name2{
 	top:207px;
 	left:380px;
@@ -471,6 +480,16 @@ align:center;
 	position : absolute;
 	padding:5px;
 }
+
+#name22{
+	top:177px;
+	left:219px;
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	padding:5px;
+}
+
 #mob1{
 	top:259px;
 	left:260px;
@@ -495,6 +514,14 @@ align:center;
 	font-size:20px;
 }
 
+#n_add{
+	top:207px;
+	left:230px;
+	width: 30%;
+	position : absolute;
+	font-size:20px;
+}
+
 #rent{
 top: 200px;
 text-align: center;
@@ -509,6 +536,17 @@ text-align: center;
 	font-size:20px;
 	padding:0px 5px;
 }
+
+#n_data{
+	top:210px;
+	left:380px;'
+	border-radius:5px;
+	width: 15%;
+	position : absolute;
+	font-size:20px;
+	padding:0px 5px;
+}
+
 #em1{
 	top:379px;
 	left:260px;
@@ -557,17 +595,16 @@ text-align: center;
 }
 
 #dob3{
-	top:217px;
-	left:870px;
-	border-radius:5px;
-	width: 15%;
+	top:237px;
+	left:688px;
+	width: 30%;
 	position : absolute;
-	padding:3px 5px;
+	font-size:20px;
 }
 
 
 #dob4{
-	top:217px;
+	top:237px;
 	left:870px;
 	border-radius:5px;
 	width: 15%;
@@ -1543,17 +1580,13 @@ fieldset{
 	color:#9A12B3;
 }
 
-#upsearch{
-width: 25%;
-float:right;	
-}
 
 .navbar {
   overflow: hidden;
   background-color: #9A12B3;
   font-family: Copperplate,Copperplate Gothic Light,fantasy;
   background:rgba(0,0,0,.5);
-  width: 75%;
+  width: 100%;
 }
 
 /* Links inside the navbar */

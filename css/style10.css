@@ -8,7 +8,7 @@ body{
 	/*background-color:#9A12B3;*/
 	background-image:url("../images/im2.jpg");
 	background-size:cover;
-	/*overflow-x:hidden;*/
+	
 }
 
 h2{
@@ -382,8 +382,8 @@ h2{
 }
 
 #update_btn1{
-	top:60%;
-	left:45%;
+	top:350px;
+	left:450px;
 	background-color:#9A12B3;
 	padding:8px;
 	color:white;
@@ -962,16 +962,16 @@ h2{
 }
 
 #pro3{
-	top:20%;
-	left:35%;
+	top:170px;
+	left:350px;
 	width: 30%;
 	position : absolute;
 	font-size:20px;
 	margin-bottom:10px;
 }
 #pro4{
-	top:20%;
-	left:50%;
+	top:167px;
+	left:600px;'
 	border-radius:5px;
 	width: 15%;
 	position : absolute;
@@ -980,16 +980,16 @@ h2{
 }
 
 #quan1{
-	top:35%;
-	left:35%;
+	top:220px;
+	left:350px;
 	width: 30%;
 	position : absolute;
 	font-size:20px;
 	margin-bottom:10px;
 }
 #quan2{
-	top:30%;
-	left:50%;
+	top:217px;
+	left:600px;'
 	border-radius:5px;
 	width: 15%;
 	position : absolute;
@@ -997,23 +997,6 @@ h2{
 	margin-bottom:10px;
 }
 
-#rmob1{
-	top:45%;
-	left:35%;
-	width: 30%;
-	position : absolute;
-	font-size:20px;
-	margin-bottom:10px;
-}
-#rmob2{
-	top:45%;
-	left:50%;'
-	border-radius:5px;
-	width: 15%;
-	position : absolute;
-	padding:5px;
-	margin-bottom:10px;
-}
 #date1{
 	top:270px;
 	left:350px;
@@ -1110,8 +1093,7 @@ h2{
 
 .x1{
 	display : block;
-	width : 50%;
-
+	width : 100%;
 }
 .x1 thead, tbody{
 	display : block;
@@ -1120,14 +1102,14 @@ h2{
 .x1 tbody{
 	height :300px;
 	overflow-y : scroll;
-	/*overflow-x : hidden;*/
+	overflow-x : hidden;
 }
 
 
 #abc1{
 	position: absolute;
-	top : 20%;
-	left :25%;
+	top : 250px;
+	left :90px;
 }
 #abc1 th {
 	padding-top: 12px;
